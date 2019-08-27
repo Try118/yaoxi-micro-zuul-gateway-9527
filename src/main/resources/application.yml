@@ -1,0 +1,9 @@
+server:
+  port: 9527
+  
+spring:
+  application:    name: yaoxi-micro-zuul-gateway-9527
+    
+eureka:
+  client:
+    service-url:      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
